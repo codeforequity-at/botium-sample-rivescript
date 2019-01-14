@@ -1,0 +1,13 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "botium-sample-rivescript",
+      "CONTAINERMODE": "simplerest",
+			"SIMPLEREST_PING_URL": "http://localhost:3000/reply",
+			"SIMPLEREST_URL": "http://localhost:3000/reply",
+			"SIMPLEREST_METHOD": "POST",
+			"SIMPLEREST_BODY_TEMPLATE": "{ \"username\": \"botium\", \"message\": \"{{msg.messageText}}\" }",
+			"SIMPLEREST_RESPONSE_JSONPATH": "$.reply"      
+    }
+  }
+}

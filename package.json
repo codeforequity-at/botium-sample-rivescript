@@ -1,0 +1,26 @@
+{
+  "name": "botium-sample-rivescript",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "mocha": "mocha spec --exit",
+    "test": "run-p -r start mocha"  
+  },
+  "dependencies": {
+    "botium-bindings": "^2.0.3",
+    "express": "^4.16.4",
+    "rivescript": "^2.0.0-alpha.6"
+  },
+  "botium": {
+    "convodirs": [
+      "spec\\convo"
+    ],
+    "expandConvos": true,
+    "expandUtterancesToConvos": false
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "mocha": "latest",
+    "npm-run-all": "^4.1.5"
+  }
+}
