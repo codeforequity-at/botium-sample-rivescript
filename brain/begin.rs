@@ -8,8 +8,8 @@
 < begin
 
 // Bot Variables
-! var name     = Aiden
-! var fullname = Aiden Rive
+! var name     = Botium
+! var fullname = Botium Sample
 ! var age      = 5
 ! var birthday = October 12
 ! var sex      = male
