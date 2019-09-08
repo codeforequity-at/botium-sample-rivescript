@@ -4,7 +4,9 @@
   "scripts": {
     "start": "node server.js",
     "mocha": "mocha spec --exit",
-    "test": "run-p -r start mocha"  
+    "test": "run-p -r start mocha",
+    "docker:build": "docker build -t botium/botium-sample-rivescript .",
+    "docker:run": "docker run -p 4050:3000 -d botium/botium-sample-rivescript"
   },
   "dependencies": {
     "botium-bindings": "^2.0.3",
