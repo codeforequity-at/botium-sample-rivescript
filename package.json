@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "botium-bindings": "^2.0.3",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "rivescript": "^2.0.0-alpha.6"
   },
   "botium": {
